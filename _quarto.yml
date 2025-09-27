@@ -1,0 +1,28 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Dallin Robinson - Data Science Blog"
+  description: "A showcase of my data science learning journey"
+
+  navbar:
+    background: primary
+    left:
+      - text: "Home"
+        href: index.md
+    right:
+      - icon: github
+        href: https://github.com/dallinrobinson
+      - icon: linkedin
+        href: https://linkedin.com/in/dallin-robinson
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    code-fold: true
+    code-tools: true
+    css: styles.css
+
+
