@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Dallin Robinson - Data Science Blog"
+  site-url: https://dallinrobinson.github.io/
   description: "A showcase of my data science learning journey"
 
   navbar:
