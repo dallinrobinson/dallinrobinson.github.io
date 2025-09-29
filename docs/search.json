@@ -32,7 +32,7 @@
     "href": "index.html#step-1-load-the-data",
     "title": "Customer Segmentation Made Simple: K-Means in Python",
     "section": "Step 1: Load the Data",
-    "text": "Step 1: Load the Data\nLet’s start with a simple dataset of fictional customers:\n\n\nCode\nimport pandas as pd\n\n# Sample dataset\ndata = {\n    \"CustomerID\": [1, 2, 3, 4, 5, 6],\n    \"Age\": [19, 35, 26, 27, 50, 45],\n    \"AnnualSpend\": [15_000, 35_000, 18_000, 22_000, 55_000, 48_000]\n}\n\ndf = pd.DataFrame(data)\nprint(df)\n\n\n   CustomerID  Age  AnnualSpend\n0           1   19        15000\n1           2   35        35000\n2           3   26        18000\n3           4   27        22000\n4           5   50        55000\n5           6   45        48000\n\n\nThis gives us:\n\n\n\nCustomerID\nAge\nAnnualSpend\n\n\n\n\n1\n19\n15000\n\n\n2\n35\n35000\n\n\n3\n26\n18000\n\n\n4\n27\n22000\n\n\n5\n50\n55000\n\n\n6\n45\n48000"
+    "text": "Step 1: Load the Data\nLet’s start with a simple dataset of fictional customers:\n\n\nCode\nimport pandas as pd\n\n# Sample dataset\ndata = {\n    \"CustomerID\": [1, 2, 3, 4, 5, 6],\n    \"Age\": [19, 35, 26, 27, 50, 45],\n    \"AnnualSpend\": [15_000, 35_000, 18_000, 22_000, 55_000, 48_000]\n}\n\ndf = pd.DataFrame(data)\n\n\nHere is a clean summary table of the dataset:\n\n\n\nCustomerID\nAge\nAnnualSpend\n\n\n\n\n1\n19\n15000\n\n\n2\n35\n35000\n\n\n3\n26\n18000\n\n\n4\n27\n22000\n\n\n5\n50\n55000\n\n\n6\n45\n48000\n\n\n\nHere is the actual code output:\n\n\nCode\nprint(df)\n\n\n   CustomerID  Age  AnnualSpend\n0           1   19        15000\n1           2   35        35000\n2           3   26        18000\n3           4   27        22000\n4           5   50        55000\n5           6   45        48000"
   },
   {
     "objectID": "index.html#step-2-run-k-means",
@@ -53,7 +53,7 @@
     "href": "index.html#step-4-interpret-the-cluster-centers",
     "title": "Customer Segmentation Made Simple: K-Means in Python",
     "section": "Step 4: Interpret the Cluster Centers",
-    "text": "Step 4: Interpret the Cluster Centers\nK-Means calculates cluster centers (the “average” customer in each group).\n\n\nCode\ncenters = pd.DataFrame(kmeans.cluster_centers_, columns=[\"Age\", \"AnnualSpend\"])\nprint(centers)\n\n\n         Age   AnnualSpend\n0  24.000000  18333.333333\n1  43.333333  46000.000000\n\n\nHere’s what the cluster centroids might look like:\n\n\n\nCluster\nAvg Age\nAvg Annual Spend\n\n\n\n\n0\n25.5\n19,000\n\n\n1\n47.5\n51,500\n\n\n\nThis tells a clear story:\n\nCluster 0 → Younger customers with lower spending\nCluster 1 → Older customers with higher spending"
+    "text": "Step 4: Interpret the Cluster Centers\nK-Means calculates cluster centers (the “average” customer in each group).\n\n\nCode\ncenters = pd.DataFrame(kmeans.cluster_centers_, columns=[\"Age\", \"AnnualSpend\"])\nprint(centers)\n\n\n         Age   AnnualSpend\n0  24.000000  18333.333333\n1  43.333333  46000.000000\n\n\nThis tells a clear story:\n\nCluster 0 → Younger customers with lower spending\nCluster 1 → Older customers with higher spending"
   },
   {
     "objectID": "index.html#wrapping-up",

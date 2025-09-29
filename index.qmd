@@ -45,10 +45,9 @@ data = {
 }
 
 df = pd.DataFrame(data)
-print(df)
 ```
 
-This gives us:
+Here is a clean summary table of the dataset:
 
 | CustomerID | Age | AnnualSpend |
 | ---------- | --- | ----------- |
@@ -58,6 +57,12 @@ This gives us:
 | 4          | 27  | 22000       |
 | 5          | 50  | 55000       |
 | 6          | 45  | 48000       |
+
+Here is the actual code output:
+
+```{python}
+print(df)
+```
 
 ---
 
@@ -112,13 +117,6 @@ K-Means calculates **cluster centers** (the “average” customer in each group
 centers = pd.DataFrame(kmeans.cluster_centers_, columns=["Age", "AnnualSpend"])
 print(centers)
 ```
-
-Here’s what the cluster centroids might look like:
-
-| Cluster | Avg Age | Avg Annual Spend |
-| ------- | ------- | ---------------- |
-| 0       | 25.5    | 19,000           |
-| 1       | 47.5    | 51,500           |
 
 This tells a clear story:
 
