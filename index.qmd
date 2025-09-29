@@ -1,4 +1,11 @@
-# Customer Segmentation Made Simple: K-Means in Python
+---
+title: "Customer Segmentation Made Simple: K-Means in Python"
+format:
+  html:
+    code-fold: true
+    toc: true
+jupyter: blog_env
+---
 
 Ever wonder how companies like Spotify recommend playlists or how stores know which coupons to send you? **Customer segmentation** is the key. In this tutorial, we’ll walk through how to use **K-Means clustering** in Python to group customers into meaningful segments.
 
@@ -27,7 +34,7 @@ And the cool part? You don’t need dozens of variables to see interesting patte
 
 Let’s start with a simple dataset of fictional customers:
 
-```python
+```{python}
 import pandas as pd
 
 # Sample dataset
@@ -58,7 +65,7 @@ This gives us:
 
 We’ll use `scikit-learn`’s implementation of K-Means.
 
-```python
+```{python}
 from sklearn.cluster import KMeans
 
 X = df[["Age", "AnnualSpend"]]
@@ -78,7 +85,7 @@ Now each customer has a **cluster label** indicating their segment.
 
 A scatterplot helps us see how the groups form.
 
-```python
+```{python}
 import matplotlib.pyplot as plt
 
 plt.scatter(df["Age"], df["AnnualSpend"], c=df["Cluster"], cmap="viridis", s=100)
@@ -101,7 +108,7 @@ _Alt text: Scatterplot with customers grouped into two clusters by spending and 
 
 K-Means calculates **cluster centers** (the “average” customer in each group).
 
-```python
+```{python}
 centers = pd.DataFrame(kmeans.cluster_centers_, columns=["Age", "AnnualSpend"])
 print(centers)
 ```

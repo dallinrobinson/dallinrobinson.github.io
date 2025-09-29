@@ -16,56 +16,56 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "",
+    "title": "Customer Segmentation Made Simple: K-Means in Python",
     "section": "",
-    "text": "Code"
+    "text": "Ever wonder how companies like Spotify recommend playlists or how stores know which coupons to send you? Customer segmentation is the key. In this tutorial, we’ll walk through how to use K-Means clustering in Python to group customers into meaningful segments.\nBy the end, you’ll know how to:"
   },
   {
     "objectID": "index.html#why-customer-segmentation-matters",
     "href": "index.html#why-customer-segmentation-matters",
-    "title": "",
+    "title": "Customer Segmentation Made Simple: K-Means in Python",
     "section": "Why Customer Segmentation Matters",
     "text": "Why Customer Segmentation Matters\nBusinesses rarely treat all customers the same. Instead, they group customers into segments based on characteristics like age, spending, or habits. This allows for:\n\nPersonalized marketing (ads that feel relevant, not random)\nSmarter product design (different products for different groups)\nBetter resource allocation (focus on high-value customers)\n\nAnd the cool part? You don’t need dozens of variables to see interesting patterns. Sometimes just age and annual spending are enough to show natural groupings."
   },
   {
     "objectID": "index.html#step-1-load-the-data",
     "href": "index.html#step-1-load-the-data",
-    "title": "",
+    "title": "Customer Segmentation Made Simple: K-Means in Python",
     "section": "Step 1: Load the Data",
-    "text": "Step 1: Load the Data\nLet’s start with a simple dataset of fictional customers:\nimport pandas as pd\n\n# Sample dataset\ndata = {\n    \"CustomerID\": [1, 2, 3, 4, 5, 6],\n    \"Age\": [19, 35, 26, 27, 50, 45],\n    \"AnnualSpend\": [15_000, 35_000, 18_000, 22_000, 55_000, 48_000]\n}\n\ndf = pd.DataFrame(data)\nprint(df)\nThis gives us:\n\n\n\nCustomerID\nAge\nAnnualSpend\n\n\n\n\n1\n19\n15000\n\n\n2\n35\n35000\n\n\n3\n26\n18000\n\n\n4\n27\n22000\n\n\n5\n50\n55000\n\n\n6\n45\n48000"
+    "text": "Step 1: Load the Data\nLet’s start with a simple dataset of fictional customers:\n\n\nCode\nimport pandas as pd\n\n# Sample dataset\ndata = {\n    \"CustomerID\": [1, 2, 3, 4, 5, 6],\n    \"Age\": [19, 35, 26, 27, 50, 45],\n    \"AnnualSpend\": [15_000, 35_000, 18_000, 22_000, 55_000, 48_000]\n}\n\ndf = pd.DataFrame(data)\nprint(df)\n\n\n   CustomerID  Age  AnnualSpend\n0           1   19        15000\n1           2   35        35000\n2           3   26        18000\n3           4   27        22000\n4           5   50        55000\n5           6   45        48000\n\n\nThis gives us:\n\n\n\nCustomerID\nAge\nAnnualSpend\n\n\n\n\n1\n19\n15000\n\n\n2\n35\n35000\n\n\n3\n26\n18000\n\n\n4\n27\n22000\n\n\n5\n50\n55000\n\n\n6\n45\n48000"
   },
   {
     "objectID": "index.html#step-2-run-k-means",
     "href": "index.html#step-2-run-k-means",
-    "title": "",
+    "title": "Customer Segmentation Made Simple: K-Means in Python",
     "section": "Step 2: Run K-Means",
-    "text": "Step 2: Run K-Means\nWe’ll use scikit-learn’s implementation of K-Means.\nfrom sklearn.cluster import KMeans\n\nX = df[[\"Age\", \"AnnualSpend\"]]\n\n# Create a KMeans model with 2 clusters\nkmeans = KMeans(n_clusters=2, random_state=42)\ndf[\"Cluster\"] = kmeans.fit_predict(X)\n\nprint(df)\nNow each customer has a cluster label indicating their segment."
+    "text": "Step 2: Run K-Means\nWe’ll use scikit-learn’s implementation of K-Means.\n\n\nCode\nfrom sklearn.cluster import KMeans\n\nX = df[[\"Age\", \"AnnualSpend\"]]\n\n# Create a KMeans model with 2 clusters\nkmeans = KMeans(n_clusters=2, random_state=42)\ndf[\"Cluster\"] = kmeans.fit_predict(X)\n\nprint(df)\n\n\n   CustomerID  Age  AnnualSpend  Cluster\n0           1   19        15000        0\n1           2   35        35000        1\n2           3   26        18000        0\n3           4   27        22000        0\n4           5   50        55000        1\n5           6   45        48000        1\n\n\nNow each customer has a cluster label indicating their segment."
   },
   {
     "objectID": "index.html#step-3-visualize-the-clusters",
     "href": "index.html#step-3-visualize-the-clusters",
-    "title": "",
+    "title": "Customer Segmentation Made Simple: K-Means in Python",
     "section": "Step 3: Visualize the Clusters",
-    "text": "Step 3: Visualize the Clusters\nA scatterplot helps us see how the groups form.\nimport matplotlib.pyplot as plt\n\nplt.scatter(df[\"Age\"], df[\"AnnualSpend\"], c=df[\"Cluster\"], cmap=\"viridis\", s=100)\nplt.xlabel(\"Age\")\nplt.ylabel(\"Annual Spending ($)\")\nplt.title(\"Customer Segments (K-Means)\")\nplt.show()\nTip: Each color shows a different segment. Try changing n_clusters to 3 or 4 and see how the picture changes.\nExample visualization: \nAlt text: Scatterplot with customers grouped into two clusters by spending and age."
+    "text": "Step 3: Visualize the Clusters\nA scatterplot helps us see how the groups form.\n\n\nCode\nimport matplotlib.pyplot as plt\n\nplt.scatter(df[\"Age\"], df[\"AnnualSpend\"], c=df[\"Cluster\"], cmap=\"viridis\", s=100)\nplt.xlabel(\"Age\")\nplt.ylabel(\"Annual Spending ($)\")\nplt.title(\"Customer Segments (K-Means)\")\nplt.show()\n\n\n\n\n\n\n\n\n\nTip: Each color shows a different segment. Try changing n_clusters to 3 or 4 and see how the picture changes.\nExample visualization: \nAlt text: Scatterplot with customers grouped into two clusters by spending and age."
   },
   {
     "objectID": "index.html#step-4-interpret-the-cluster-centers",
     "href": "index.html#step-4-interpret-the-cluster-centers",
-    "title": "",
+    "title": "Customer Segmentation Made Simple: K-Means in Python",
     "section": "Step 4: Interpret the Cluster Centers",
-    "text": "Step 4: Interpret the Cluster Centers\nK-Means calculates cluster centers (the “average” customer in each group).\ncenters = pd.DataFrame(kmeans.cluster_centers_, columns=[\"Age\", \"AnnualSpend\"])\nprint(centers)\nHere’s what the cluster centroids might look like:\n\n\n\nCluster\nAvg Age\nAvg Annual Spend\n\n\n\n\n0\n25.5\n19,000\n\n\n1\n47.5\n51,500\n\n\n\nThis tells a clear story:\n\nCluster 0 → Younger customers with lower spending\nCluster 1 → Older customers with higher spending"
+    "text": "Step 4: Interpret the Cluster Centers\nK-Means calculates cluster centers (the “average” customer in each group).\n\n\nCode\ncenters = pd.DataFrame(kmeans.cluster_centers_, columns=[\"Age\", \"AnnualSpend\"])\nprint(centers)\n\n\n         Age   AnnualSpend\n0  24.000000  18333.333333\n1  43.333333  46000.000000\n\n\nHere’s what the cluster centroids might look like:\n\n\n\nCluster\nAvg Age\nAvg Annual Spend\n\n\n\n\n0\n25.5\n19,000\n\n\n1\n47.5\n51,500\n\n\n\nThis tells a clear story:\n\nCluster 0 → Younger customers with lower spending\nCluster 1 → Older customers with higher spending"
   },
   {
     "objectID": "index.html#wrapping-up",
     "href": "index.html#wrapping-up",
-    "title": "",
+    "title": "Customer Segmentation Made Simple: K-Means in Python",
     "section": "Wrapping Up",
     "text": "Wrapping Up\nK-Means gives us a quick, data-driven way to segment customers. Even with just two variables, we can uncover meaningful groups that businesses can target differently."
   },
   {
     "objectID": "index.html#call-to-action",
     "href": "index.html#call-to-action",
-    "title": "",
+    "title": "Customer Segmentation Made Simple: K-Means in Python",
     "section": "Call to Action",
     "text": "Call to Action\nNow that you’ve seen how simple customer segmentation can be, try it yourself!\n\nUse a different dataset—like survey responses, your Spotify listening habits, or even your classmates’ study hours.\nExperiment with different numbers of clusters (n_clusters).\nShare your visualization with a peer and explain what the groups might mean.\n\nFor further reading, check out the scikit-learn K-Means documentation."
   }
