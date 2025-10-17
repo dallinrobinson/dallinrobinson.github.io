@@ -12,10 +12,10 @@ I’ll be starting the **Master of Business & Technology (MBT)** program at **Pu
 
 ## Education
 
-**Brigham Young University** — B.S. in Statistics, Minors in Math & Business
-*Expected Graduation: April 2026*
-GPA: 3.80 | Major GPA: 4.00
-Spanish Language Certificate (Advanced)
+**Brigham Young University** — B.S. in Statistics, Minors in Math & Business<br>
+*Expected Graduation: April 2026*<br>
+GPA: 3.80 | Major GPA: 4.00<br>
+Spanish Language Certificate (Advanced)<br>
 Member of Mu Sigma Rho, ASA, and BYU Statistics Club
 
 ---
