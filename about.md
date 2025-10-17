@@ -50,10 +50,11 @@ Standardized legal datasets and trained staff on MyCase software, improving comp
 ## Get to Know Me
 
 Outside of data science, I love:
+
 - Running and training for Spartan races
 - 3D printing and DIY design projects with my wife, Emma
 - Traveling — we recently spent our honeymoon in Puerto Rico
-- Watching BYU football and exploring new tech gadgets 
+- Watching BYU football and exploring new tech gadgets
 
 ---
 
