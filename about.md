@@ -12,7 +12,7 @@ I’ll be starting the **Master of Business & Technology (MBT)** program at **Pu
 
 ---
 
-## 🎓 Education
+## Education
 
 - **Brigham Young University** — B.S. in Statistics, Minors in Math & Business
   *Expected Graduation: April 2026*
@@ -22,7 +22,7 @@ I’ll be starting the **Master of Business & Technology (MBT)** program at **Pu
 
 ---
 
-## 💼 Experience
+## Experience
 
 **Business Systems Consulting Intern – Cache Valley Electric (CVE)** *(Sep 2025 – Present)*
 Auditing CVE’s digital asset systems, developing metadata taxonomy, and preparing executive recommendations for AI automation.
@@ -41,7 +41,7 @@ Standardized legal datasets and trained staff on MyCase software, improving comp
 
 ---
 
-## 🧠 Skills
+## Skills
 
 **Programming & Tools:** Python (pandas, scikit-learn, PyTorch), R (tidyverse), SQL, Tableau, Git, Excel
 **Analytics & Modeling:** Regression, recommender systems, feature selection, experimental design
@@ -49,7 +49,7 @@ Standardized legal datasets and trained staff on MyCase software, improving comp
 
 ---
 
-## 🌎 Get to Know Me
+## Get to Know Me
 
 Outside of data science, I love:
 - Running and training for Spartan races 🏃
@@ -59,5 +59,5 @@ Outside of data science, I love:
 
 ---
 
-## 📬 Connect with Me
+## Connect with Me
 [LinkedIn](https://www.linkedin.com/in/dallin-robinson) • [GitHub](https://github.com/dallinrobinson) • [Email](mailto:dallinr.robinson@gmail.com)

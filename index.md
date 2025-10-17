@@ -6,7 +6,7 @@ title: "Welcome to My Data Science Portfolio"
 
 Welcome! I’m a Statistics major at **Brigham Young University** with minors in **Mathematics** and **Business**. I’m passionate about using data and technology to solve meaningful problems and make better business decisions.
 
-## 🎯 Purpose of This Site
+## Purpose of This Site
 
 This site is my personal data science portfolio and learning journal. Here, I share my experiences, reflections, and key lessons from:
 
