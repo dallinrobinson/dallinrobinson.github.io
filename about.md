@@ -41,9 +41,9 @@ Standardized legal datasets and trained staff on MyCase software, improving comp
 
 ## Skills
 
-**Programming & Tools:** Python (pandas, scikit-learn, PyTorch), R (tidyverse), SQL, Tableau, Git, Excel
-**Analytics & Modeling:** Regression, recommender systems, feature selection, experimental design
-**Soft Skills:** Teaching, communication, leadership, bilingual (English/Spanish)
+- **Programming & Tools:** Python (pandas, scikit-learn, PyTorch), R (tidyverse), SQL, Tableau, Git, Excel
+- **Analytics & Modeling:** Regression, recommender systems, feature selection, experimental design
+- **Soft Skills:** Teaching, communication, leadership, bilingual (English/Spanish)
 
 ---
 
