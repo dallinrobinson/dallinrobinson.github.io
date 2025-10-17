@@ -88,41 +88,41 @@
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "Dallin Robinson\n\n\nHi, I’m Dallin Robinson, a senior at Brigham Young University majoring in Statistics with minors in Mathematics and Business. I’m fascinated by the intersection of data, technology, and human decision-making — and I love finding ways to make analytics approachable and useful.\nI’ll be starting the Master of Business & Technology (MBT) program at Purdue University in July 2026, focusing on AI-driven innovation and strategy.\n\n\n\n\nBrigham Young University — B.S. in Statistics, Minors in Math & Business Expected Graduation: April 2026 GPA: 3.80 | Major GPA: 4.00 Spanish Language Certificate (Advanced) Member of Mu Sigma Rho, ASA, and BYU Statistics Club\n\n\n\n\n\nBusiness Systems Consulting Intern – Cache Valley Electric (CVE) (Sep 2025 – Present) Auditing CVE’s digital asset systems, developing metadata taxonomy, and preparing executive recommendations for AI automation.\nResearch Assistant – BYU Statistics Department (Sep 2025 – Present) Studying neural network dropout methods, focusing on CorEx-based cluster dropout, and contributing to reproducible research experiments.\nData Science Intern – ON24 (Mar 2025 – Oct 2025) Developed a two-tower recommender model in PyTorch (↑13.1% performance) and deployed an AI-based webinar thumbnail generator using GPT-4o.\nTeaching Assistant – BYU Statistics (Jan 2024 – Apr 2025) Supported 100+ students each semester in STAT 121 & 230, guiding R-based labs and improving curriculum clarity.\nLegal Operations & Data Analyst Intern – Culwell Legal (2023–2024) Standardized legal datasets and trained staff on MyCase software, improving compliance and workflow efficiency.\n\n\n\n\nProgramming & Tools: Python (pandas, scikit-learn, PyTorch), R (tidyverse), SQL, Tableau, Git, Excel Analytics & Modeling: Regression, recommender systems, feature selection, experimental design Soft Skills: Teaching, communication, leadership, bilingual (English/Spanish)\n\n\n\n\nOutside of data science, I love: - Running and training for Spartan races 🏃 - 3D printing and DIY design projects with my wife, Emma 🧩 - Traveling — we recently spent our honeymoon in Puerto Rico 🌴 - Watching BYU football and exploring new tech gadgets 💻\n\n\n\n\nLinkedIn • GitHub • Email"
+    "text": "Dallin Robinson\nHi, I’m Dallin Robinson, a senior at Brigham Young University majoring in Statistics with minors in Mathematics and Business. I’m fascinated by the intersection of data, technology, and human decision-making — and I love finding ways to make analytics approachable and useful.\nI’ll be starting the Master of Business & Technology (MBT) program at Purdue University in July 2026, focusing on AI-driven innovation and strategy."
   },
   {
     "objectID": "about.html#education",
     "href": "about.html#education",
     "title": "About Me",
-    "section": "",
-    "text": "Brigham Young University — B.S. in Statistics, Minors in Math & Business Expected Graduation: April 2026 GPA: 3.80 | Major GPA: 4.00 Spanish Language Certificate (Advanced) Member of Mu Sigma Rho, ASA, and BYU Statistics Club"
+    "section": "Education",
+    "text": "Education\n\nBrigham Young University — B.S. in Statistics, Minors in Math & Business Expected Graduation: April 2026 GPA: 3.80 | Major GPA: 4.00 Spanish Language Certificate (Advanced) Member of Mu Sigma Rho, ASA, and BYU Statistics Club"
   },
   {
     "objectID": "about.html#experience",
     "href": "about.html#experience",
     "title": "About Me",
-    "section": "",
-    "text": "Business Systems Consulting Intern – Cache Valley Electric (CVE) (Sep 2025 – Present) Auditing CVE’s digital asset systems, developing metadata taxonomy, and preparing executive recommendations for AI automation.\nResearch Assistant – BYU Statistics Department (Sep 2025 – Present) Studying neural network dropout methods, focusing on CorEx-based cluster dropout, and contributing to reproducible research experiments.\nData Science Intern – ON24 (Mar 2025 – Oct 2025) Developed a two-tower recommender model in PyTorch (↑13.1% performance) and deployed an AI-based webinar thumbnail generator using GPT-4o.\nTeaching Assistant – BYU Statistics (Jan 2024 – Apr 2025) Supported 100+ students each semester in STAT 121 & 230, guiding R-based labs and improving curriculum clarity.\nLegal Operations & Data Analyst Intern – Culwell Legal (2023–2024) Standardized legal datasets and trained staff on MyCase software, improving compliance and workflow efficiency."
+    "section": "Experience",
+    "text": "Experience\nBusiness Systems Consulting Intern – Cache Valley Electric (CVE) (Sep 2025 – Present) Auditing CVE’s digital asset systems, developing metadata taxonomy, and preparing executive recommendations for AI automation.\nResearch Assistant – BYU Statistics Department (Sep 2025 – Present) Studying neural network dropout methods, focusing on CorEx-based cluster dropout, and contributing to reproducible research experiments.\nData Science Intern – ON24 (Mar 2025 – Oct 2025) Developed a two-tower recommender model in PyTorch (↑13.1% performance) and deployed an AI-based webinar thumbnail generator using GPT-4o.\nTeaching Assistant – BYU Statistics (Jan 2024 – Apr 2025) Supported 100+ students each semester in STAT 121 & 230, guiding R-based labs and improving curriculum clarity.\nLegal Operations & Data Analyst Intern – Culwell Legal (2023–2024) Standardized legal datasets and trained staff on MyCase software, improving compliance and workflow efficiency."
   },
   {
     "objectID": "about.html#skills",
     "href": "about.html#skills",
     "title": "About Me",
-    "section": "",
-    "text": "Programming & Tools: Python (pandas, scikit-learn, PyTorch), R (tidyverse), SQL, Tableau, Git, Excel Analytics & Modeling: Regression, recommender systems, feature selection, experimental design Soft Skills: Teaching, communication, leadership, bilingual (English/Spanish)"
+    "section": "Skills",
+    "text": "Skills\nProgramming & Tools: Python (pandas, scikit-learn, PyTorch), R (tidyverse), SQL, Tableau, Git, Excel Analytics & Modeling: Regression, recommender systems, feature selection, experimental design Soft Skills: Teaching, communication, leadership, bilingual (English/Spanish)"
   },
   {
     "objectID": "about.html#get-to-know-me",
     "href": "about.html#get-to-know-me",
     "title": "About Me",
-    "section": "",
-    "text": "Outside of data science, I love: - Running and training for Spartan races 🏃 - 3D printing and DIY design projects with my wife, Emma 🧩 - Traveling — we recently spent our honeymoon in Puerto Rico 🌴 - Watching BYU football and exploring new tech gadgets 💻"
+    "section": "Get to Know Me",
+    "text": "Get to Know Me\nOutside of data science, I love: - Running and training for Spartan races - 3D printing and DIY design projects with my wife, Emma - Traveling — we recently spent our honeymoon in Puerto Rico - Watching BYU football and exploring new tech gadgets"
   },
   {
     "objectID": "about.html#connect-with-me",
     "href": "about.html#connect-with-me",
     "title": "About Me",
-    "section": "",
-    "text": "LinkedIn • GitHub • Email"
+    "section": "Connect with Me",
+    "text": "Connect with Me\nLinkedIn • GitHub • Email"
   }
 ]
