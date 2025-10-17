@@ -74,69 +74,55 @@
     "href": "index.html",
     "title": "Welcome to My Data Science Portfolio",
     "section": "",
-    "text": "Welcome to my data science portfolio! This site shows my journey learning data science and analytics. Here you’ll find projects that demonstrate what I’ve learned and discovered.\n\n\nThis portfolio shows my work learning data science. Each project includes:\n\nMy code with documentation\nVisualizations I created\nWhat I learned and discovered\n\nI built this site using Quarto and host it on GitHub Pages.\n\n\n\n\nProgramming: Python, Pandas for data analysis\nVisualization: Creating charts with Matplotlib and Seaborn\nData Collection: Getting data from files, websites, and APIs\nAnalysis: Finding patterns and answering questions with data\n\n\n\n\n\n\n\nLearn how I explore datasets to find interesting patterns and answer questions.\n\n\n\nSee how I gather data from different sources and prepare it for analysis.\n\n\n\nSee how I tackle a data science project beginning to end.\n\n\n\nThanks for visiting! Feel free to explore my projects and see what I’m learning."
+    "text": "Welcome! I’m a Statistics major at Brigham Young University with minors in Mathematics and Business. I’m passionate about using data and technology to solve meaningful problems and make better business decisions.\n\n\nThis site is my personal data science portfolio and learning journal. Here, I share my experiences, reflections, and key lessons from:\n\nCoursework in statistics, analytics, and machine learning\nResearch and internships where I apply data-driven methods\nIndependent projects and explorations in Python and R\n\nI built this website using Quarto and host it on GitHub Pages. It’s designed to grow as I do — documenting my journey from student to professional data scientist.\n\nThanks for stopping by — feel free to visit my About Me page to learn more!\nGitHub • LinkedIn"
   },
   {
-    "objectID": "index.html#about-this-portfolio",
-    "href": "index.html#about-this-portfolio",
+    "objectID": "index.html#purpose-of-this-site",
+    "href": "index.html#purpose-of-this-site",
     "title": "Welcome to My Data Science Portfolio",
     "section": "",
-    "text": "This portfolio shows my work learning data science. Each project includes:\n\nMy code with documentation\nVisualizations I created\nWhat I learned and discovered\n\nI built this site using Quarto and host it on GitHub Pages."
-  },
-  {
-    "objectID": "index.html#skills-im-learning",
-    "href": "index.html#skills-im-learning",
-    "title": "Welcome to My Data Science Portfolio",
-    "section": "",
-    "text": "Programming: Python, Pandas for data analysis\nVisualization: Creating charts with Matplotlib and Seaborn\nData Collection: Getting data from files, websites, and APIs\nAnalysis: Finding patterns and answering questions with data"
-  },
-  {
-    "objectID": "index.html#my-projects",
-    "href": "index.html#my-projects",
-    "title": "Welcome to My Data Science Portfolio",
-    "section": "",
-    "text": "Learn how I explore datasets to find interesting patterns and answer questions.\n\n\n\nSee how I gather data from different sources and prepare it for analysis.\n\n\n\nSee how I tackle a data science project beginning to end.\n\n\n\nThanks for visiting! Feel free to explore my projects and see what I’m learning."
+    "text": "This site is my personal data science portfolio and learning journal. Here, I share my experiences, reflections, and key lessons from:\n\nCoursework in statistics, analytics, and machine learning\nResearch and internships where I apply data-driven methods\nIndependent projects and explorations in Python and R\n\nI built this website using Quarto and host it on GitHub Pages. It’s designed to grow as I do — documenting my journey from student to professional data scientist.\n\nThanks for stopping by — feel free to visit my About Me page to learn more!\nGitHub • LinkedIn"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "I’m a Statistics major at BYU with minors in Mathematics and Business. I work on recommender systems and applied analytics, and I enjoy turning data into decisions that matter."
-  },
-  {
-    "objectID": "about.html#background",
-    "href": "about.html#background",
-    "title": "About Me",
-    "section": "",
-    "text": "I’m a Statistics major at BYU with minors in Mathematics and Business. I work on recommender systems and applied analytics, and I enjoy turning data into decisions that matter."
+    "text": "Dallin Robinson\n\n\nHi, I’m Dallin Robinson, a senior at Brigham Young University majoring in Statistics with minors in Mathematics and Business. I’m fascinated by the intersection of data, technology, and human decision-making — and I love finding ways to make analytics approachable and useful.\nI’ll be starting the Master of Business & Technology (MBT) program at Purdue University in July 2026, focusing on AI-driven innovation and strategy.\n\n\n\n\nBrigham Young University — B.S. in Statistics, Minors in Math & Business Expected Graduation: April 2026 GPA: 3.80 | Major GPA: 4.00 Spanish Language Certificate (Advanced) Member of Mu Sigma Rho, ASA, and BYU Statistics Club\n\n\n\n\n\nBusiness Systems Consulting Intern – Cache Valley Electric (CVE) (Sep 2025 – Present) Auditing CVE’s digital asset systems, developing metadata taxonomy, and preparing executive recommendations for AI automation.\nResearch Assistant – BYU Statistics Department (Sep 2025 – Present) Studying neural network dropout methods, focusing on CorEx-based cluster dropout, and contributing to reproducible research experiments.\nData Science Intern – ON24 (Mar 2025 – Oct 2025) Developed a two-tower recommender model in PyTorch (↑13.1% performance) and deployed an AI-based webinar thumbnail generator using GPT-4o.\nTeaching Assistant – BYU Statistics (Jan 2024 – Apr 2025) Supported 100+ students each semester in STAT 121 & 230, guiding R-based labs and improving curriculum clarity.\nLegal Operations & Data Analyst Intern – Culwell Legal (2023–2024) Standardized legal datasets and trained staff on MyCase software, improving compliance and workflow efficiency.\n\n\n\n\nProgramming & Tools: Python (pandas, scikit-learn, PyTorch), R (tidyverse), SQL, Tableau, Git, Excel Analytics & Modeling: Regression, recommender systems, feature selection, experimental design Soft Skills: Teaching, communication, leadership, bilingual (English/Spanish)\n\n\n\n\nOutside of data science, I love: - Running and training for Spartan races 🏃 - 3D printing and DIY design projects with my wife, Emma 🧩 - Traveling — we recently spent our honeymoon in Puerto Rico 🌴 - Watching BYU football and exploring new tech gadgets 💻\n\n\n\n\nLinkedIn • GitHub • Email"
   },
   {
     "objectID": "about.html#education",
     "href": "about.html#education",
     "title": "About Me",
-    "section": "Education",
-    "text": "Education\n\n[Your Degree] - [University Name], [Year]\nRelevant Coursework: Statistics, Data Analysis, Programming, etc."
+    "section": "",
+    "text": "Brigham Young University — B.S. in Statistics, Minors in Math & Business Expected Graduation: April 2026 GPA: 3.80 | Major GPA: 4.00 Spanish Language Certificate (Advanced) Member of Mu Sigma Rho, ASA, and BYU Statistics Club"
   },
   {
-    "objectID": "about.html#skills-interests",
-    "href": "about.html#skills-interests",
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
     "title": "About Me",
-    "section": "Skills & Interests",
-    "text": "Skills & Interests\n\nTechnical Skills\n\nProgramming: Python\nData Analysis: Pandas, NumPy\nVisualization: Matplotlib, Seaborn\nMachine Learning: Scikit-learn\nTools: Jupyter Notebooks, Git/GitHub\n\n\n\nAreas of Interest\n\n[Your specific interests, e.g., environmental data, healthcare analytics, finance, etc.]\n[Other areas you’re curious about]"
+    "section": "",
+    "text": "Business Systems Consulting Intern – Cache Valley Electric (CVE) (Sep 2025 – Present) Auditing CVE’s digital asset systems, developing metadata taxonomy, and preparing executive recommendations for AI automation.\nResearch Assistant – BYU Statistics Department (Sep 2025 – Present) Studying neural network dropout methods, focusing on CorEx-based cluster dropout, and contributing to reproducible research experiments.\nData Science Intern – ON24 (Mar 2025 – Oct 2025) Developed a two-tower recommender model in PyTorch (↑13.1% performance) and deployed an AI-based webinar thumbnail generator using GPT-4o.\nTeaching Assistant – BYU Statistics (Jan 2024 – Apr 2025) Supported 100+ students each semester in STAT 121 & 230, guiding R-based labs and improving curriculum clarity.\nLegal Operations & Data Analyst Intern – Culwell Legal (2023–2024) Standardized legal datasets and trained staff on MyCase software, improving compliance and workflow efficiency."
   },
   {
-    "objectID": "about.html#goals",
-    "href": "about.html#goals",
+    "objectID": "about.html#skills",
+    "href": "about.html#skills",
     "title": "About Me",
-    "section": "Goals",
-    "text": "Goals\nDescribe what you hope to achieve through your data science journey:\n\nShort-term learning objectives\nLong-term career aspirations\nTypes of problems you want to solve"
+    "section": "",
+    "text": "Programming & Tools: Python (pandas, scikit-learn, PyTorch), R (tidyverse), SQL, Tableau, Git, Excel Analytics & Modeling: Regression, recommender systems, feature selection, experimental design Soft Skills: Teaching, communication, leadership, bilingual (English/Spanish)"
   },
   {
-    "objectID": "about.html#contact",
-    "href": "about.html#contact",
+    "objectID": "about.html#get-to-know-me",
+    "href": "about.html#get-to-know-me",
     "title": "About Me",
-    "section": "Contact",
-    "text": "Contact\n\nEmail: your.email@example.com\nGitHub: github.com/your-username\nLinkedIn: linkedin.com/in/your-profile\n\n\nThis portfolio showcases my learning progress and projects completed during my data science studies."
+    "section": "",
+    "text": "Outside of data science, I love: - Running and training for Spartan races 🏃 - 3D printing and DIY design projects with my wife, Emma 🧩 - Traveling — we recently spent our honeymoon in Puerto Rico 🌴 - Watching BYU football and exploring new tech gadgets 💻"
+  },
+  {
+    "objectID": "about.html#connect-with-me",
+    "href": "about.html#connect-with-me",
+    "title": "About Me",
+    "section": "",
+    "text": "LinkedIn • GitHub • Email"
   }
 ]

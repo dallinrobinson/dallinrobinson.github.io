@@ -4,52 +4,20 @@ title: "Welcome to My Data Science Portfolio"
 
 # Hi, I'm Dallin Robinson
 
-Welcome to my data science portfolio! This site shows my journey learning data science and analytics. Here you'll find projects that demonstrate what I've learned and discovered.
+Welcome! I’m a Statistics major at **Brigham Young University** with minors in **Mathematics** and **Business**. I’m passionate about using data and technology to solve meaningful problems and make better business decisions.
 
-## 🎓 About This Portfolio
+## 🎯 Purpose of This Site
 
-This portfolio shows my work learning data science. Each project includes:
+This site is my personal data science portfolio and learning journal. Here, I share my experiences, reflections, and key lessons from:
 
-- My code with documentation
-- Visualizations I created
-- What I learned and discovered
+- Coursework in statistics, analytics, and machine learning
+- Research and internships where I apply data-driven methods
+- Independent projects and explorations in Python and R
 
-I built this site using [Quarto](https://quarto.org/) and host it on [GitHub Pages](https://pages.github.com/).
-
-## 🛠️ Skills I'm Learning
-
-- **Programming**: Python, Pandas for data analysis
-- **Visualization**: Creating charts with Matplotlib and Seaborn
-- **Data Collection**: Getting data from files, websites, and APIs
-- **Analysis**: Finding patterns and answering questions with data
-
-## 📈 My Projects
-
-::: {.grid}
-
-::: {.g-col-6}
-
-### [Data Exploration Project](projects/eda.qmd)
-
-Learn how I explore datasets to find interesting patterns and answer questions.
-:::
-
-::: {.g-col-6}
-
-### [Data Collection Project](projects/data-acquisition.qmd)
-
-See how I gather data from different sources and prepare it for analysis.
-:::
-
-::: {.g-col-6}
-
-### [Final Project](projects/final-project.qmd)
-
-See how I tackle a data science project beginning to end.
-:::
-
-:::
+I built this website using [Quarto](https://quarto.org/) and host it on [GitHub Pages](https://pages.github.com/). It’s designed to grow as I do — documenting my journey from student to professional data scientist.
 
 ---
 
-_Thanks for visiting! Feel free to explore my projects and see what I'm learning._
+_Thanks for stopping by — feel free to visit my [About Me](about.html) page to learn more!_
+
+[GitHub](https://github.com/dallinrobinson) • [LinkedIn](https://linkedin.com/in/dallin-robinson)
